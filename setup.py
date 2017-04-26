@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 
-from setuptools import setup
+#from setuptools import setup
+from distutils.core import setup
 
 setup(name='depth_tool',
 	description="Calculating mean depth tool.",
