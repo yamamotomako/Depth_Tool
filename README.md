@@ -10,8 +10,8 @@ python 2.7.x
 <hr>
 <h3>Install</h3>
 <pre><code>
-git clone https://github.com/yamamotomako/Depth-Tool.git<br>
-cd ./Depth-Tool<br>
+git clone https://github.com/yamamotomako/depth_tool.git<br>
+cd ./depth_tool<br>
 python setup.py build<br>
 python setup.py install --user<br>
 </code></pre>
