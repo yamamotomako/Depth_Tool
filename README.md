@@ -10,7 +10,7 @@ python 2.7.x
 <hr>
 <h3>Install</h3>
 <pre><code>
-git clone https://github.com/yamamotomako/calc_mean_depth.git<br>
+git clone https://github.com/yamamotomako/Depth-Tool.git<br>
 cd ./calc_mean_depth<br>
 python setup.py build<br>
 python setup.py install --user<br>
