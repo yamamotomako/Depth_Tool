@@ -23,7 +23,7 @@ python setup.py install --user<br>
 <hr>
 <h3>Usage</h3>
 <pre><code>
-depth_tool   /path-to-bam-file/sample.bam   /path-to-reference-bed/sample.bed   /path-to-output-result-file
+depth_tool   /path-to-bam-file/sample.bam   /path-to-reference-beit/sample.bed   /path-to-output-result-file
 </code></pre>
 
 
