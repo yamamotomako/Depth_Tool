@@ -61,7 +61,7 @@ def calc_mean_depth(bamfile, bedfile, outfile):
 	print "Making output file..."
 
 	#header
-	result_str = "\t".join(["bedfile chromsome:start-end","mean-depth"]) + "\n"
+	result_str = "\t".join(["beit chromsome:start-end","mean-depth"]) + "\n"
 	#result_str = "\t".join(["chrm","match-start","match-end","ref-start","ref-end","all-read","mean-depth","other-info"]) + "\n"
 
 	for k, v in ref_dict.items():
