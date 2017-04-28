@@ -10,14 +10,14 @@ python 2.7.x
 <hr>
 <h3>Install</h3>
 <pre><code>
-git clone https://github.com/yamamotomako/depth_tool.git<br>
-cd ./depth_tool<br>
+git clone https://github.com/yamamotomako/Depth_Tool.git<br>
+cd ./Deoth_Tool<br>
 python setup.py build<br>
 python setup.py install --user<br>
 </code></pre>
 
 <br>
-->depth_tool shell script will be installed into /your-home/.local/bin<br>
+->depth_tool script will be installed into /your-home/.local/bin<br>
 
 
 <hr>
