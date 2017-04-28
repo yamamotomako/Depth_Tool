@@ -1,21 +1,11 @@
-<style>
-h3, h4{
-    margin, padding: 0px;
-}
-p{
-    margin, padding: 0px;
-}
-</style>
-
-
 
 <h1>Depth_Tool</h1>
 <h2>Calculating mean depth of bam attached to reference bed (ex.exome).</h2>
 
 
 <h3>Dependency</h3>
-<p>python 2.7.x<p>
-<p>-pybedtools<p>>
+python 2.7.x
+-pybedtools
 
 <hr>
 <h3>Install</h3>
