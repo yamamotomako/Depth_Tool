@@ -11,7 +11,7 @@ python 2.7.x
 <h3>Install</h3>
 <pre><code>
 git clone https://github.com/yamamotomako/Depth_Tool.git<br>
-cd ./Deoth_Tool<br>
+cd ./Depth_Tool<br>
 python setup.py build<br>
 python setup.py install --user<br>
 </code></pre>
