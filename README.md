@@ -1,11 +1,21 @@
+<style>
+h3, h4{
+    margin, padding: 0px;
+}
+p{
+    margin, padding: 0px;
+}
+</style>
+
+
+
 <h1>Depth_Tool</h1>
 <h2>Calculating mean depth of bam attached to reference bed (ex.exome).</h2>
 
 
-<hr>
 <h3>Dependency</h3>
-python 2.7.x<br>
--pybedtools<br>
+<p>python 2.7.x<p>
+<p>-pybedtools<p>>
 
 <hr>
 <h3>Install</h3>
@@ -14,13 +24,13 @@ cd ./calc_mean_depth<br>
 python setup.py build<br>
 python setup.py install --user<br>
 
-<br><br>
+<br>
 ->depth_tool shell script will be installed into /your-home/.local/bin<br>
 
 
 <hr>
 <h3>Usage</h3>
-depth_tool /path-to-bam-file/sample.bam /path-to-reference-bed/sample.bed /path-to-output-result-file
+depth_tool   /path-to-bam-file/sample.bam   /path-to-reference-bed/sample.bed   /path-to-output-result-file
 
 
 <h4>help</h4>
