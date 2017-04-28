@@ -34,7 +34,7 @@ depth_tool -h
 
 
 <h4>success log</h4>
-Console write out following log.<br>
+Console writes out the following log.<br>
 <pre><code>
 Starting bedtools intersect...<br>
 Finished bedtools intersect...<br>
