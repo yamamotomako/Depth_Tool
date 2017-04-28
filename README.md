@@ -1,5 +1,5 @@
 
-<h1>Depth_Tool</h1>
+<h1>Depth Tool</h1>
 <h2>Calculating mean depth of bam attached to reference bed (ex.exome).</h2>
 
 
