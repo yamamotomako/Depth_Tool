@@ -1,6 +1,6 @@
 
 <h1>Depth Tool</h1>
-<h2>Calculating mean depth of bam attached to reference bed (ex.exome).</h2>
+<h2>Calculating mean depth of bam, attached to reference bed (ex.exome).</h2>
 
 
 <h3>Dependency</h3>
