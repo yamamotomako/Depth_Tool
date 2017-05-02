@@ -14,7 +14,7 @@ def main():
 
 
 	arg_parser = parser.add_argument("bam_file", help="input bam file path (bam format required)")
-	arg_parser = parser.add_argument("bed_file", help="input reference bed file path (bed format required)")
+	arg_parser = parser.add_argument("bed_file", help="input reference beit file path (bed format required)")
 	arg_parser = parser.add_argument("out_file", help="output file path")
 
 
@@ -32,7 +32,7 @@ def main():
 		sys.exit()
 
 	if not os.path.exists(bedfile):
-		print "Error: bedfile not exists."
+		print "Error: beitfile not exists."
 		sys.exit()
 
 
