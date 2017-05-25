@@ -1,4 +1,5 @@
 #! /usr/bin/env python
+# -*- coding: utf-8 -*-
 
 import sys
 import os
@@ -44,32 +45,19 @@ def calc_mean_depth(bamfile, baitfile, outfile):
 
     print "Making output file..."
 
+    g = open(outfile, "w")
+
     #header
-    result_str = "\t".join(["chromesome:start-end","mean-depth"]) + "\n"
+    header_str = "\t".join(["chromesome:start-end","mean-depth"]) + "\n"
+    g.write(header_str)
 
     for k, v in ref_dict.items():
         mean_depth = int(v[5]) / (int(v[4]) - int(v[3]))
-        result_str += "chr"+v[0]+":"+v[3]+"-"+v[4] + "\t" + str(mean_depth) + "\n"
+        g.write("chr"+v[0]+":"+v[3]+"-"+v[4] + "\t" + str(mean_depth) + "\n")
 
-
-    with open(outfile, "w") as g:
-        g.write(result_str.strip())
-
-
+    g.close()
 
     print "Finished all process!"
-
-
-bamfile = sys.argv[1]
-baitfile = sys.argv[2]
-outfile = sys.argv[3]
-
-
-calc_mean_depth(bamfile, baitfile, outfile)
-
-
-sys.exit()
-
 
 
 
